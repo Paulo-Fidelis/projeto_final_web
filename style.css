@@ -1,0 +1,259 @@
+
+
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background-color: #fafafa;
+    color: #1a1a1a;
+    line-height: 1.6;
+}
+
+
+header {
+    background-color: #f0f0f0;
+    border-style: solid;
+    border-width: 0px 0px 2px 0px;
+    border-color: #e0e0e0;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+header p {
+    color: #666666;
+}
+
+
+mark {
+    background-color:#f0f0f0;
+    color: #1a1a1a;
+    padding: 2px 8px;
+}
+
+
+h1 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #1a1a1a;
+}
+
+h2 {
+    font-size: 22px;
+    font-weight: bold;
+    color: #1a1a1a;
+}
+
+
+div {
+    width: 70%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #e0e0e0;
+}
+
+p {
+    color: #666666;
+    font-size: 17px;
+}
+
+
+.centralizado {
+    text-align: center;
+}
+
+
+ul, ol {
+    padding-left: 24px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 14px;
+    padding-left: 0;
+}
+
+ul li {
+    margin-bottom: 0;
+    background-color: #1a1a1a;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #333333;
+}
+
+ul li a {
+    display: block;
+    padding: 8px 16px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 12px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+
+ul li a:link,
+ul li a:visited {
+    color: #ffffff;
+}
+
+ul li a:hover {
+    background-color: #333333;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+
+a:link {
+    color: #1a1a1a;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:visited {
+    color: #333333;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    color: #666666;
+}
+
+body > a {
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding: 10px 20px;
+    background-color: #333333;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+body > a:link,
+body > a:visited {
+    color: #ffffff;
+}
+
+body > a:hover {
+    background-color: #1a1a1a;
+    color: #ffffff;
+}
+
+div > a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 12px 22px;
+    background-color: #1a1a1a;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+div > a:link,
+div > a:visited {
+    color: #ffffff;
+}
+
+div > a:hover {
+    background-color: #333333;
+    color: #ffffff;
+}
+
+img {
+    width: 380px;
+    max-width: 100%;
+    height: auto;
+}
+
+
+.centralizado img {
+    width: 400px;
+    max-width: 100%;
+}
+
+
+table {
+    width: 60%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ffffff;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #e0e0e0;
+}
+
+th, td {
+    padding: 10px 16px;
+    text-align: left;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #e0e0e0;
+}
+
+th {
+    background-color: #f0f0f0;
+    color: #1a1a1a;
+    font-weight: bold;
+}
+
+td {
+    color: #666666;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+label {
+    font-weight: bold;
+    color: #1a1a1a;
+    margin-top: 10px;
+}
+
+input {
+    padding: 10px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #e0e0e0;
+    font-size: 16px;
+}
+
+
+button {
+    margin-top: 14px;
+    padding: 12px 24px;
+    background-color: #25D366;
+    color: #ffffff;
+    border-style: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+hr {
+    border-style: solid;
+    border-width: 1px 0px 0px 0px;
+    border-color: #e0e0e0;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
