@@ -31,8 +31,14 @@
         <form>
             <label>Seu Nome completo:</label><br>
             <input type="text" id="nome"><br><br>
+            <p>Preço unitário: R$ 200,00</p>
+
+            <label>Quantidade:</label>
+            <input type="number" id="quantidade" value="1" min="1" onchange="calcularTotal(200)">
+
+            <p>Total: R$ <span id="total">200.00</span></p>
             
-            <label>Sua Dúvida ou Pedido:</label><br>
+            <label>Tem alguma dúvida ou deseja fazer um pedido pelo WhatsApp?</label><br>
             <input type="text" id="mensagem" value="Quero comprar o Teclado Kumara na Daonde Tech!"><br><br>
             
             <button type="button" onclick="enviarWhatsApp()">Enviar mensagem para o WhatsApp</button>
