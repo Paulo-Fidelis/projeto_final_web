@@ -17,6 +17,12 @@ function carregarSaudacao() {
     }
 }
 
+function calcularTotal(preco) {
+    const quantidade = document.getElementById("quantidade").value;
+    const total = preco * quantidade;
+    document.getElementById("total").textContent = total.toFixed(2);
+}
+
 window.onload = carregarSaudacao;
 
 function enviarWhatsApp(){
